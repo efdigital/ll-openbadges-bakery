@@ -1,6 +1,5 @@
-# openbadges-bakery [![Build Status](https://secure.travis-ci.org/mozilla/openbadges-bakery.png)](http://travis-ci.org/mozilla/openbadges-bakery)
-
-An OpenBadges image baking library that works with PNGs and SVGs
+# openbadges-bakery
+An OpenBadges image baking library that works with PNGs and SVGs. This forked version has been updated for use with current versions of Node (5.1.1) and other packages. Dependency on streampng was removed as it wasn't working in the new environment.
 
 # Install
 ```bash
