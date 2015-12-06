@@ -8,19 +8,19 @@
   },
   "bin": "bin/oven",
   "dependencies": {
-    "request": "~2.11.4",
-    "streampng": "0.1.7",
-    "optimist": "~0.3.5",
-    "cheerio": "~0.12.3",
-    "concat-stream": "~1.1.0",
-    "through": "~2.3.4",
-    "buffer-equal": "0.0.0",
-    "jws": "~0.2.2"
+    "request": "~2.67.0",
+    "streampng": "0.1.8",
+    "optimist": "~0.6.1",
+    "cheerio": "~0.19.0",
+    "concat-stream": "~1.5.1",
+    "through": "~2.3.8",
+    "buffer-equal": "0.0.1",
+    "jws": "~3.1.0"
   },
   "devDependencies": {
     "oneshot": "~0.1.0",
-    "jshint": "~0.9.0",
-    "tap": "~0.3.1"
+    "jshint": "~2.9.1-rc1",
+    "tap": "~2.3.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/tap test/*.js"
