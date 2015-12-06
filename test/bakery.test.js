@@ -1,6 +1,8 @@
 const test = require('tap').test
 const oneshot = require('oneshot')
 const fs = require('fs')
+const urlutil = require('url')
+const path = require('path')
 
 const bakery = require('..')
 
@@ -136,9 +138,6 @@ test('bakery.debake: error when debaking unbaked image', function (t) {
     t.end()
   })
 })
-
-const urlutil = require('url')
-const path = require('path')
 
 function file(name) {
   return fs.readFileSync(path.join(__dirname, name))
