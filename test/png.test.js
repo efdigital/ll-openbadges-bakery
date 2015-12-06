@@ -1,6 +1,5 @@
 const test = require('tap').test;
 const fs = require('fs');
-const streampng = require('streampng');
 const pathutil = require('path');
 const urlutil = require('url');
 
