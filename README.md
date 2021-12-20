@@ -7,25 +7,7 @@ $ npm install openbadges-bakery
 ```
 # CLI Usage
 
-## Baking
-
-```bash
-$ oven [--in ./path/to/image.svg] [--out ./path/to/baked-image.svg] <data>
-```
-If `--out` is not set, the baked image will print to stdout.
-
-The input file can also be piped into stdin.
-
-```bash
-$ oven <data> <  ./path/to/image.png  > ./path/to/baked-image.png
-```
-## Extracting
-
-```bash
-$ oven [--in path/to/image.png] --extract
-```
-
-Same as above,  you can also pipe a file to stdin. The data will be printed to stdout.
+This has been removed due to vulnerabilities in the dependencies.
 
 # Libary Usage
 
