@@ -12,15 +12,13 @@
     "cheerio": "^1.0.0-rc.10",
     "concat-stream": "^1.6.2",
     "jws": "~3.1.0",
-    "optimist": "~0.6.1",
     "png-itxt": "^2.0.0",
     "request": "^2.88.0",
     "through": "~2.3.8"
   },
   "devDependencies": {
     "jshint": "~2.9.1-rc1",
-    "oneshot": "~0.1.0",
-    "tap": "^12.1.1"
+    "tap": "^15.1.5"
   },
   "scripts": {
     "test": "./node_modules/.bin/tap test/*.js"
