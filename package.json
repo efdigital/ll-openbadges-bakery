@@ -1,9 +1,12 @@
 {
   "name": "@efdigital/ll-openbadges-bakery",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tools for baking and debaking openbadge images",
   "main": "index.js",
-  "repository": "git://github.com/efdigital/ll-openbadges-baker.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla/openbadges-bakery.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -28,10 +31,6 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/tap test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mozilla/openbadges-bakery.git"
   },
   "keywords": [
     "openbadges"
