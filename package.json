@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozilla/openbadges-bakery.git"
+    "url": "git://github.com/efdigital/ll-openbadges-bakery.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
